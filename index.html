@@ -1,45 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Xeon TaskLite</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
+  <div class="container">
+    <h1>Xeon TaskLite</h1>
+    <p>A simple, professional task manager built with HTML, CSS, and JavaScript.</p>
 
-  <h1>Xeon TaskLite</h1>
-  <p>A simple task manager built with HTML, CSS, and JavaScript.</p>
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter a new task" />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
 
-  <input type="text" id="taskInput" placeholder="Enter a new task" />
-  <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList"></ul>
 
-  <ul id="taskList"></ul>
+  </div>
 
-  <script>
-    const taskInput = document.getElementById("taskInput");
-    const addTaskBtn = document.getElementById("addTaskBtn");
-    const taskList = document.getElementById("taskList");
-
-    addTaskBtn.addEventListener("click", function () {
-      const taskText = taskInput.value.trim();
-
-      if (taskText === "") {
-        alert("Please enter a task.");
-        return;
-      }
-
-      const li = document.createElement("li");
-      li.textContent = taskText;
-
-      li.addEventListener("click", function () {
-        li.style.textDecoration = "line-through";
-      });
-
-      taskList.appendChild(li);
-      taskInput.value = "";
-    });
-  </script>
-
+  <script src="app.js"></script>
 </body>
-</html>
