@@ -1,33 +1,34 @@
 # Xeon TaskLite
 
 **Author:** Xeon Godfred Opoku  
-**Technology:** HTML, CSS, JavaScript  
-**Level:** Beginner → Internship-ready
+**Role:** Aspiring Frontend Developer  
+**Project Type:** Practical Internship-Level Project
 
 ---
 
 ## Overview
 
-Xeon TaskLite is a clean, simple task management application built with HTML, CSS, and JavaScript.  
-It allows users to add, view, and manage tasks efficiently in a minimalistic interface.  
-This project demonstrates practical web development skills and core JavaScript logic.
+Xeon TaskLite is a simple and efficient task management web application built using HTML, CSS, and JavaScript.  
+The project focuses on clean design, usability, and practical frontend development skills.
+
+This application allows users to add and manage tasks in a minimal, distraction-free interface while demonstrating core web development concepts.
 
 ---
 
 ## Features
 
 - Add tasks dynamically
-- Delete tasks
-- Responsive layout with CSS
-- Clean, user-friendly interface
+- Clean and responsive user interface
+- Simple task listing system
+- Modern UI design using CSS
 
 ---
 
 ## Technologies Used
 
-- HTML5 for structure
-- CSS3 for styling and layout
-- JavaScript for interactive functionality
+- **HTML5** – page structure
+- **CSS3** – styling and layout
+- **JavaScript** – interactivity and logic
 
 ---
 
@@ -35,17 +36,25 @@ This project demonstrates practical web development skills and core JavaScript l
 
 - DOM manipulation
 - Event handling
-- Responsive web design
-- Project organization on GitHub
+- Responsive design principles
+- Clean project structure
+- Version control with GitHub
+
+---
+
+## Purpose of This Project
+
+This project was built as part of my learning journey toward becoming a professional frontend developer and securing internship opportunities. It demonstrates my ability to build functional, clean, and user-friendly web applications.
 
 ---
 
 ## Future Improvements
 
-- Task persistence using local storage
-- Ability to mark tasks as complete
-- Task sorting/filtering
+- Save tasks using local storage
+- Mark tasks as completed
+- Improve accessibility and UX
 
 ---
 
-**Xeon Godfred Opoku** – building real-world projects ready for internship opportunities.
+**Xeon Godfred Opoku**  
+Frontend Developer (Internship Ready)
