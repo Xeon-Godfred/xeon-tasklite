@@ -1,4 +1,4 @@
-// Xeon TaskLite - Advanced Task Manager
+// Xeon TaskLite - Advanced Task Manager with completed class
 // Author: Xeon Godfred Opoku
 
 const taskInput = document.getElementById("taskInput");
@@ -40,13 +40,13 @@ function renderTask(task) {
   li.textContent = task.text;
   li.dataset.id = task.id;
 
-  // Apply completed style if needed
-  if (task.completed) li.style.textDecoration = "line-through";
+  // Apply completed class if needed
+  if (task.completed) li.classList.add("completed");
 
   // Toggle completion on click
   li.addEventListener("click", () => {
     task.completed = !task.completed;
-    li.style.textDecoration = task.completed ? "line-through" : "none";
+    li.classList.toggle("completed");
     updateTask(task);
   });
 
