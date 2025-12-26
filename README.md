@@ -1,60 +1,29 @@
-# Xeon TaskLite
+# Xeon Tasklist
 
-**Author:** Xeon Godfred Opoku  
-**Role:** Aspiring Frontend Developer  
-**Project Type:** Practical Internship-Level Project
-
----
-
-## Overview
-
-Xeon TaskLite is a simple and efficient task management web application built using HTML, CSS, and JavaScript.  
-The project focuses on clean design, usability, and practical frontend development skills.
-
-This application allows users to add and manage tasks in a minimal, distraction-free interface while demonstrating core web development concepts.
-
----
+A fully functional task management web app built using HTML, CSS, and JavaScript.  
+This project is part of my portfolio as an aspiring front-end developer.
 
 ## Features
-
-- Add tasks dynamically
-- Clean and responsive user interface
-- Simple task listing system
-- Modern UI design using CSS
-
----
-
-## Technologies Used
-
-- **HTML5** – page structure
-- **CSS3** – styling and layout
-- **JavaScript** – interactivity and logic
-
----
-
-## Skills Demonstrated
-
-- DOM manipulation
-- Event handling
-- Responsive design principles
-- Clean project structure
-- Version control with GitHub
-
----
-
-## Purpose of This Project
-
-This project was built as part of my learning journey toward becoming a professional frontend developer and securing internship opportunities. It demonstrates my ability to build functional, clean, and user-friendly web applications.
-
----
-
-## Future Improvements
-
-- Save tasks using local storage
+- Add, edit, and delete tasks
 - Mark tasks as completed
-- Improve accessibility and UX
+- Responsive design for mobile and desktop
+- Clean and user-friendly interface
+- Data persistence using local storage
 
----
+## Technologies
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Responsive Web Design
+- Git & GitHub
 
-**Xeon Godfred Opoku**  
-Frontend Developer (Internship Ready)
+## Project Goals
+- Build practical and accessible web applications
+- Improve front-end skills through real-world projects
+- Prepare for open-source contributions and global internships
+
+## Live Demo
+*(Optional: Add a link if you deploy it)*
+
+## Author
+[Xeon Godfred Opoku](https://github.com/Xeon-Godfred)
